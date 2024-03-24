@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.space-grotesk-container {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.content-wrapper {
+
+
+    background-image: url("../assets/breakingbad_rv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100%;
+
+    width: 100%;
+
+
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 7vh;
+    background: #333;
+    color: #fff;
+}
+
+.raven {
+    display: flex;
+    align-items: center;
+}
+
+.fonta {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.fontb {
+    font-size: 18px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rightNav input[type="text"] {
+    padding: 6px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.rightNav button {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rightNav button:hover {
+    background: #555;
+}
+
+.footer {
+    width: 100%;
+    background-color: #181A1B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer .row {
+    margin-bottom: 10px;
+}
+
+.footer .row a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .row i {
+    font-size: 24px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer a {
+    color: #42b983;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
+.location-modification {
+    background-color: #091f2a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: italic;
+}
+
+/* Buttons  */
+
+.butt {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background: white;
+    cursor: pointer;
+}
+
+.butt-small {
+    padding: 3px 8px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.butt-email {
+    padding: 3px 8px;
+    vertical-align: middle;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #364c62;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login {
+    padding: 6px 12px;
+    margin: 5px 2px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(19, 2, 19);
+    background: none;
+    cursor: pointer;
+}
+
+/* this is for the input boxes  */
+
+#uname,
+#email,
+#address,
+#username,
+#username_or_email,
+#phone,
+#email,
+#usertype,
+#mechanic_type,
+#password,
+#re_password,
+#car_color,
+#car_license,
+#car_engine,
+#appointment_date,
+#appointment_time,
+#service_requested,
+#mechanic 
+{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+    color: darkblue;
+    background: white;
+}
+
+/* Login section */
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* height: 100%; */
+    /* z-index: 100; */
+
+
+}
+
+
+.login-section form {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+
+.login-section h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.login-section .form-group {
+    margin-bottom: 20px;
+}
+
+.login-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-section input[type="email"],
+.login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-section button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-section button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* .txtshadowjutsu {
+    font-size: 80px;
+    color: #333333;
+    text-shadow: -1px -1px 0 skyblue,
+                 1px -1px 0 skyblue,
+                 -1px 1px 0 skyblue,
+                 1px 1px 0 skyblue;
+} */
+
+.txtshadowjutsu h1 {
+    font-size: 60px;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+.txtshadowjutsu h2 {
+    font-size: 40px;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.txtshadowjutsu p {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+
+    font-style: italic;
+    color: #333333;
+
+
+}
+ /* positioning of header and footer */
+/* 
+
+header, footer {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #333;
+    color: #fff;
+} 
+ header {
+    top: 0;
+} 
+
+footer {
+    bottom: 0;
+}
+
+.content-wrapper {
+    padding-top: 7vh;
+    padding-bottom: 100px;
+} 
+
+
+
+
+  */
+
+
+/* signup section  */
+
+ 
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 100;
+
+
+}
+
+
+.signup-section form {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+
+.signup-section h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.signup-section .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.signup-section input[type="email"],
+.signup-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-section button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-section button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+/* table css  */
+
+/* .transparent-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.transparent-table th,
+.transparent-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.transparent-table th {
+    background-color: #f2f2f2;
+}
+
+
+.transparent-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.transparent-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+} */
